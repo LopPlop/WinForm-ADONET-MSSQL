@@ -102,19 +102,18 @@ namespace WinFormApplication.DataLayer
 
         public bool AddAuthor(Author author)
         {
-            string? name = author.Name;
             using (SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["MyDBConnectionString"].ConnectionString))
             {
                 string proc = "AuthorInsert";
                 SqlCommand sqlCommand = new SqlCommand(proc, conn);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
-                SqlParameter par = new SqlParameter("@Name", name);
+                SqlParameter par = new SqlParameter("@autor_name", author.Name);
                 sqlCommand.Parameters.Add(par);
 
                 conn.Open();
-                bool res = sqlCommand.ExecuteReader().HasRows;
+                bool isOk = sqlCommand.ExecuteReader().HasRows;
                 conn.Close();
-                return res;
+                return isOk;
             }
         }
 

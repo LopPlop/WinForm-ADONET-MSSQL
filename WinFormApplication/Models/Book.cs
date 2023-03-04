@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace WinFormApplication.Models
 {
-    internal class Author : IDbModel
+    class Book : IDbModel
     {
         public int Id { get; set; }
         public string? Name { get; set; }
+
     }
 }

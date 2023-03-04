@@ -43,3 +43,5 @@ C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.
 C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.0-windows\ref\WinFormApplication.dll
 C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.0-windows\WinFormApplication.UI.AuthorDataGrid.resources
 C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.0-windows\WinFormApplication.UI.ucAuthorList.resources
+C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.0-windows\WinFormApplication.UI.BookDataGrid.resources
+C:\Users\Ilya\source\repos\WinFormApplication\WinFormApplication\obj\Debug\net6.0-windows\WinFormApplication.Properties.Resources.resources
